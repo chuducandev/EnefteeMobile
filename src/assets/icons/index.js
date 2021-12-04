@@ -1,0 +1,11 @@
+export { default as AddBoxRegular } from './add-box.svg';
+export { default as AddBoxFocused } from './add-box-focused.svg';
+export { default as ArchiveRegular } from './archive.svg';
+export { default as ArchiveFocused } from './archive-focused.svg';
+export { default as CreatorRegular } from './creator.svg';
+export { default as CreatorFocused } from './creator-focused.svg';
+export { default as HomeRegular } from './home.svg';
+export { default as HomeFocused } from './home-focused.svg';
+export { default as SearchRegular } from './search.svg';
+export { default as SearchFocused } from './search-focused.svg';
+export { default as SearchGray } from './search-gray.svg';

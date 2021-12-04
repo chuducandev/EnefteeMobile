@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		000F5408A0CE4479AAD72191 /* Work Sans Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99F30FBD32824A9C81522650 /* Work Sans Italic.ttf */; };
 		00E356F31AD99517003FC87E /* EnefteeMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* EnefteeMobileTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		165B0F438C304889AEFEC280 /* Work Sans Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8E62D1318224F209946E489 /* Work Sans Light.ttf */; };
+		3C041AB25EF54B82873EA851 /* Work Sans Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 399E9C22D78E495CAFF0DDA1 /* Work Sans Thin.ttf */; };
+		3D63D6B362694618845EAD03 /* Work Sans ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89B3DB1C3BD34728BE01DC94 /* Work Sans ExtraBold.ttf */; };
+		40C0D4DDB7F04C61B539B407 /* Work Sans Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54BE42C8A1F64F339BFD76B1 /* Work Sans Black.ttf */; };
+		5559C891C0554B989D0565C0 /* Work Sans Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B99E777959143D2BAD44DDA /* Work Sans Medium.ttf */; };
 		5F82FA3A0C2AA510D13FEB32 /* libPods-EnefteeMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 675876759481C97E731A62CE /* libPods-EnefteeMobile.a */; };
+		616006A4DD294EE29BC655B1 /* Work Sans SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8A417015BF445F69AFFEA4A /* Work Sans SemiBold.ttf */; };
+		61C4B6D3CF88486784EEFF95 /* Work Sans ExtraLight Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1150E0993080488CB4EC30D9 /* Work Sans ExtraLight Italic.ttf */; };
+		63328E9ED05A4B40B14C08B8 /* Work Sans Medium Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74873A2960644FCFB72934A6 /* Work Sans Medium Italic.ttf */; };
 		6DB9296F4B3ADE2C25446F17 /* libPods-EnefteeMobile-EnefteeMobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F677B504FDCD199BF22873E /* libPods-EnefteeMobile-EnefteeMobileTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		84367912048F412982E54241 /* Work Sans Thin Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D34E83D3ED04ECAB2FA1EDE /* Work Sans Thin Italic.ttf */; };
+		93DAC5814FD444F7ACCF1566 /* Work Sans ExtraBold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B364D38CF2749CFB490DD17 /* Work Sans ExtraBold Italic.ttf */; };
+		A7697674CFB4484999E47767 /* Work Sans Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7FE665A4ABAF40C1AB7BA67E /* Work Sans Bold.ttf */; };
+		B7E5000E42714134B2D5500C /* Work Sans Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48F13461C7AD4F559C126AF9 /* Work Sans Bold Italic.ttf */; };
+		BF7CF7A791E14DD4B1DD5089 /* Work Sans SemiBold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B76F582BCDEB424FBE3851FC /* Work Sans SemiBold Italic.ttf */; };
+		C79D93C8072C4CC48E9AF10B /* Work Sans ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0530FC04804B4460B7B03A53 /* Work Sans ExtraLight.ttf */; };
+		D7D3A033DF3C493D9CF31D02 /* Work Sans Black Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFABF67498AA439AA6B72BA0 /* Work Sans Black Italic.ttf */; };
+		F1646030323B4E03B8A50237 /* Work Sans Light Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E47BDA0C5FC949A2AA264C7C /* Work Sans Light Italic.ttf */; };
+		F3736AF1C033437B8F17F83D /* Work Sans Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFA61132137A41ECB4FADE76 /* Work Sans Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,19 +48,37 @@
 		00E356EE1AD99517003FC87E /* EnefteeMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnefteeMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* EnefteeMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnefteeMobileTests.m; sourceTree = "<group>"; };
+		0530FC04804B4460B7B03A53 /* Work Sans ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Work Sans ExtraLight.ttf"; path = "../src/assets/fonts/Work Sans ExtraLight.ttf"; sourceTree = "<group>"; };
 		08F18757571BE90F19B49C73 /* Pods-EnefteeMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnefteeMobile.debug.xcconfig"; path = "Target Support Files/Pods-EnefteeMobile/Pods-EnefteeMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		1150E0993080488CB4EC30D9 /* Work Sans ExtraLight Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Work Sans ExtraLight Italic.ttf"; path = "../src/assets/fonts/Work Sans ExtraLight Italic.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* EnefteeMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnefteeMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = EnefteeMobile/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = EnefteeMobile/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = EnefteeMobile/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = EnefteeMobile/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = EnefteeMobile/main.m; sourceTree = "<group>"; };
+		399E9C22D78E495CAFF0DDA1 /* Work Sans Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Work Sans Thin.ttf"; path = "../src/assets/fonts/Work Sans Thin.ttf"; sourceTree = "<group>"; };
+		48F13461C7AD4F559C126AF9 /* Work Sans Bold Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Work Sans Bold Italic.ttf"; path = "../src/assets/fonts/Work Sans Bold Italic.ttf"; sourceTree = "<group>"; };
+		4B364D38CF2749CFB490DD17 /* Work Sans ExtraBold Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Work Sans ExtraBold Italic.ttf"; path = "../src/assets/fonts/Work Sans ExtraBold Italic.ttf"; sourceTree = "<group>"; };
+		54BE42C8A1F64F339BFD76B1 /* Work Sans Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Work Sans Black.ttf"; path = "../src/assets/fonts/Work Sans Black.ttf"; sourceTree = "<group>"; };
 		675876759481C97E731A62CE /* libPods-EnefteeMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EnefteeMobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74873A2960644FCFB72934A6 /* Work Sans Medium Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Work Sans Medium Italic.ttf"; path = "../src/assets/fonts/Work Sans Medium Italic.ttf"; sourceTree = "<group>"; };
+		7D34E83D3ED04ECAB2FA1EDE /* Work Sans Thin Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Work Sans Thin Italic.ttf"; path = "../src/assets/fonts/Work Sans Thin Italic.ttf"; sourceTree = "<group>"; };
 		7F01CAB08E662A8DB3DF59E0 /* Pods-EnefteeMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnefteeMobile.release.xcconfig"; path = "Target Support Files/Pods-EnefteeMobile/Pods-EnefteeMobile.release.xcconfig"; sourceTree = "<group>"; };
 		7F677B504FDCD199BF22873E /* libPods-EnefteeMobile-EnefteeMobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EnefteeMobile-EnefteeMobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE665A4ABAF40C1AB7BA67E /* Work Sans Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Work Sans Bold.ttf"; path = "../src/assets/fonts/Work Sans Bold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = EnefteeMobile/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89B3DB1C3BD34728BE01DC94 /* Work Sans ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Work Sans ExtraBold.ttf"; path = "../src/assets/fonts/Work Sans ExtraBold.ttf"; sourceTree = "<group>"; };
+		99F30FBD32824A9C81522650 /* Work Sans Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Work Sans Italic.ttf"; path = "../src/assets/fonts/Work Sans Italic.ttf"; sourceTree = "<group>"; };
+		9B99E777959143D2BAD44DDA /* Work Sans Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Work Sans Medium.ttf"; path = "../src/assets/fonts/Work Sans Medium.ttf"; sourceTree = "<group>"; };
+		B76F582BCDEB424FBE3851FC /* Work Sans SemiBold Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Work Sans SemiBold Italic.ttf"; path = "../src/assets/fonts/Work Sans SemiBold Italic.ttf"; sourceTree = "<group>"; };
+		BFA61132137A41ECB4FADE76 /* Work Sans Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Work Sans Regular.ttf"; path = "../src/assets/fonts/Work Sans Regular.ttf"; sourceTree = "<group>"; };
+		BFABF67498AA439AA6B72BA0 /* Work Sans Black Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Work Sans Black Italic.ttf"; path = "../src/assets/fonts/Work Sans Black Italic.ttf"; sourceTree = "<group>"; };
+		C8A417015BF445F69AFFEA4A /* Work Sans SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Work Sans SemiBold.ttf"; path = "../src/assets/fonts/Work Sans SemiBold.ttf"; sourceTree = "<group>"; };
 		CDC70BB6EDC0943494439882 /* Pods-EnefteeMobile-EnefteeMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnefteeMobile-EnefteeMobileTests.release.xcconfig"; path = "Target Support Files/Pods-EnefteeMobile-EnefteeMobileTests/Pods-EnefteeMobile-EnefteeMobileTests.release.xcconfig"; sourceTree = "<group>"; };
 		DC4B998FBBAA509CE50D179A /* Pods-EnefteeMobile-EnefteeMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnefteeMobile-EnefteeMobileTests.debug.xcconfig"; path = "Target Support Files/Pods-EnefteeMobile-EnefteeMobileTests/Pods-EnefteeMobile-EnefteeMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E47BDA0C5FC949A2AA264C7C /* Work Sans Light Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Work Sans Light Italic.ttf"; path = "../src/assets/fonts/Work Sans Light Italic.ttf"; sourceTree = "<group>"; };
+		E8E62D1318224F209946E489 /* Work Sans Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Work Sans Light.ttf"; path = "../src/assets/fonts/Work Sans Light.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -118,6 +154,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5B6DBB9B252948388F31EACE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BFABF67498AA439AA6B72BA0 /* Work Sans Black Italic.ttf */,
+				54BE42C8A1F64F339BFD76B1 /* Work Sans Black.ttf */,
+				48F13461C7AD4F559C126AF9 /* Work Sans Bold Italic.ttf */,
+				7FE665A4ABAF40C1AB7BA67E /* Work Sans Bold.ttf */,
+				4B364D38CF2749CFB490DD17 /* Work Sans ExtraBold Italic.ttf */,
+				89B3DB1C3BD34728BE01DC94 /* Work Sans ExtraBold.ttf */,
+				1150E0993080488CB4EC30D9 /* Work Sans ExtraLight Italic.ttf */,
+				0530FC04804B4460B7B03A53 /* Work Sans ExtraLight.ttf */,
+				99F30FBD32824A9C81522650 /* Work Sans Italic.ttf */,
+				E47BDA0C5FC949A2AA264C7C /* Work Sans Light Italic.ttf */,
+				E8E62D1318224F209946E489 /* Work Sans Light.ttf */,
+				74873A2960644FCFB72934A6 /* Work Sans Medium Italic.ttf */,
+				9B99E777959143D2BAD44DDA /* Work Sans Medium.ttf */,
+				BFA61132137A41ECB4FADE76 /* Work Sans Regular.ttf */,
+				B76F582BCDEB424FBE3851FC /* Work Sans SemiBold Italic.ttf */,
+				C8A417015BF445F69AFFEA4A /* Work Sans SemiBold.ttf */,
+				7D34E83D3ED04ECAB2FA1EDE /* Work Sans Thin Italic.ttf */,
+				399E9C22D78E495CAFF0DDA1 /* Work Sans Thin.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +196,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				0988D129F5BC32A6FE4D16C6 /* Pods */,
+				5B6DBB9B252948388F31EACE /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -245,6 +308,24 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				D7D3A033DF3C493D9CF31D02 /* Work Sans Black Italic.ttf in Resources */,
+				40C0D4DDB7F04C61B539B407 /* Work Sans Black.ttf in Resources */,
+				B7E5000E42714134B2D5500C /* Work Sans Bold Italic.ttf in Resources */,
+				A7697674CFB4484999E47767 /* Work Sans Bold.ttf in Resources */,
+				93DAC5814FD444F7ACCF1566 /* Work Sans ExtraBold Italic.ttf in Resources */,
+				3D63D6B362694618845EAD03 /* Work Sans ExtraBold.ttf in Resources */,
+				61C4B6D3CF88486784EEFF95 /* Work Sans ExtraLight Italic.ttf in Resources */,
+				C79D93C8072C4CC48E9AF10B /* Work Sans ExtraLight.ttf in Resources */,
+				000F5408A0CE4479AAD72191 /* Work Sans Italic.ttf in Resources */,
+				F1646030323B4E03B8A50237 /* Work Sans Light Italic.ttf in Resources */,
+				165B0F438C304889AEFEC280 /* Work Sans Light.ttf in Resources */,
+				63328E9ED05A4B40B14C08B8 /* Work Sans Medium Italic.ttf in Resources */,
+				5559C891C0554B989D0565C0 /* Work Sans Medium.ttf in Resources */,
+				F3736AF1C033437B8F17F83D /* Work Sans Regular.ttf in Resources */,
+				BF7CF7A791E14DD4B1DD5089 /* Work Sans SemiBold Italic.ttf in Resources */,
+				616006A4DD294EE29BC655B1 /* Work Sans SemiBold.ttf in Resources */,
+				84367912048F412982E54241 /* Work Sans Thin Italic.ttf in Resources */,
+				3C041AB25EF54B82873EA851 /* Work Sans Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
