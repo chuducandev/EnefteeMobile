@@ -4,10 +4,13 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Add, Archive, Creator, Home, Search } from '..';
 import { AddBoxFocused, AddBoxRegular, ArchiveFocused, ArchiveRegular, CreatorFocused, CreatorRegular, HomeFocused, HomeRegular, SearchFocused, SearchRegular } from '../../assets/icons';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 const Tab = createBottomTabNavigator();
 
 const Main = () => {
+  const insets = useSafeAreaInsets();
+
   return (
     <Tab.Navigator
       screenOptions={({ route }) => ({
@@ -43,7 +46,7 @@ const Main = () => {
         tabBarStyle: {
           elevation: 0,
           borderTopWidth: 0,
-          height: 40,
+          height: 40 + insets.bottom,
         },
         headerShown: false,
       })}

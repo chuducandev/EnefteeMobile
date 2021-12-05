@@ -223,7 +223,6 @@
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				A9DAD1887D56A60D132AF1A9 /* [CP] Embed Pods Frameworks */,
 				96B1EA9EF40B6A7605E3670B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -246,7 +245,6 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				A73F911C68A1E9393BC55525 /* [CP] Embed Pods Frameworks */,
 				3162F90BE7029470347148F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -400,40 +398,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EnefteeMobile-EnefteeMobileTests/Pods-EnefteeMobile-EnefteeMobileTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A73F911C68A1E9393BC55525 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EnefteeMobile/Pods-EnefteeMobile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EnefteeMobile/Pods-EnefteeMobile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EnefteeMobile/Pods-EnefteeMobile-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A9DAD1887D56A60D132AF1A9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EnefteeMobile-EnefteeMobileTests/Pods-EnefteeMobile-EnefteeMobileTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EnefteeMobile-EnefteeMobileTests/Pods-EnefteeMobile-EnefteeMobileTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EnefteeMobile-EnefteeMobileTests/Pods-EnefteeMobile-EnefteeMobileTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C4A1C9C09796DC6B64C0CAA5 /* [CP] Check Pods Manifest.lock */ = {
