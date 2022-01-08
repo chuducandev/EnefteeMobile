@@ -27,17 +27,17 @@ const Main = () => {
 
           // You can return any component that you like here!
           return !focused ? (
-            route.name == 'Home' ?    <HomeRegular width={24} height={24} /> : 
-            route.name == 'Search' ?  <SearchRegular width={22} height={18} /> :
-            route.name == 'Add' ?     <AddBoxRegular width={23} height={23} /> :
-            route.name == 'Archive' ? <ArchiveRegular width={19} height={15} /> :
-                                      <CreatorRegular width={18} height={18} />
+            route.name == 'Home' ? <HomeRegular width={24} height={24} /> :
+              route.name == 'Search' ? <SearchRegular width={22} height={18} /> :
+                route.name == 'Add' ? <AddBoxRegular width={23} height={23} /> :
+                  route.name == 'Archive' ? <ArchiveRegular width={19} height={15} /> :
+                    <CreatorRegular width={18} height={18} />
           ) : (
-            route.name == 'Home' ?    <HomeFocused width={24} height={24} /> : 
-            route.name == 'Search' ?  <SearchFocused width={22} height={18} /> :
-            route.name == 'Add' ?     <AddBoxFocused width={23} height={23} /> :
-            route.name == 'Archive' ? <ArchiveFocused width={19} height={15} /> :
-                                      <CreatorFocused width={18} height={18} />
+            route.name == 'Home' ? <HomeFocused width={24} height={24} /> :
+              route.name == 'Search' ? <SearchFocused width={22} height={18} /> :
+                route.name == 'Add' ? <AddBoxFocused width={23} height={23} /> :
+                  route.name == 'Archive' ? <ArchiveFocused width={19} height={15} /> :
+                    <CreatorFocused width={18} height={18} />
           )
         },
         tabBarActiveTintColor: 'tomato',

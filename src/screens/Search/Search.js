@@ -13,9 +13,9 @@ import { SearchBar } from './components';
 
 const Search = () => {
   return (
-    <SafeAreaView style={{backgroundColor: '#ECECEC'}}>
+    <SafeAreaView style={{ backgroundColor: '#ECECEC' }}>
       <StatusBar barStyle={'dark-content'} backgroundColor="#ECECEC" />
-      <ScrollView style={{height: '100%', backgroundColor: '#ECECEC'}}>
+      <ScrollView style={{ height: '100%', backgroundColor: '#ECECEC' }}>
         <Text style={styles.header}>Search</Text>
         <SearchBar />
         <Text style={styles.content}>This screen was only added so that the menu bar has 5 elements with the “Create” button lying in the middle for the sake of symmetry :) (Can the devs make the search function?)</Text>
